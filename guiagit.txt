@@ -1,0 +1,28 @@
+cuando sale este error
+fatal:CRLF would be replace by LF
+
+codiar asi en el branch
+
+git config --global core.autocrlf false
+
+para iniciar un repositorio
+git init
+ 
+luego hacemos un git add .  para pasar los archivos a la zona index, z
+zona intermedia o temporal
+
+luego hacemos un commit -m "mensaje" para pasar los archivos a la zona repositorio
+
+luego vinculamos el repositorio remoto de github en el repositorio local
+
+git remote add remoto https://github.com/maes12/practicandoando.git
+
+listar todo mis remotos en el sistema
+ git remote -v
+
+
+empujar mis cambios locales al remoto dado de alto 
+
+git push remoto master 
+ si sale error,  primero hacemos un pull
+
