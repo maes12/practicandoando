@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>controles soportados</title>
+
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css" media="screen">
+			body {
+				background:#039393;
+
+			}
+			.text {
+				color: white;
+			}
+		</style>
+
+	</head>
+	<body>
+	<div class="container">
+		<h2>estados de validacion</h2>
+		<!-- form -->
+		<form action="">
+			<!-- .form-group.has-success -->
+			<div class="form-group has-success">
+				<!-- label.control-label -->
+				<label for="nombre"class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre">			
+			</div>
+			<div class="form-group has-warning">
+				<label for="nombre"class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre">				
+			</div>
+			<div class="form-group has-error">
+				<label for="nombre"class="control-label">nombre</label>
+				<input type="text" class="form-control" id="nombre">
+				
+			</div>
+		</form>
+	</div> 
+
+	<div class="container">
+		<h2>agregando iconos</h2>
+		<form action="">
+			<div class="form-group has-success has-feedback">
+				<label for="nombre"class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre">
+					<!-- span.glyphicon.glyphicon-ok.form-control-feedback -->
+
+				<span class="glyphicon glyphicon-ok form-control-feedback"></span>			
+			</div>
+			<div class="form-group has-warning has-feedback">
+				<label for="nombre"class="control-label">nombre</label>
+				<input type="text" class="form-control" id="nombre">
+				<span class="glyphicon glyphicon-minus form-control-feedback"></span>
+			</div>
+			<div class="form-group has-error has-feedback">
+				<label for="nombre"class="control-label">nombre</label>
+				<input type="text" class="form-control" id="nombre">
+				<span class="glyphicon glyphicon-eur form-control-feedback"></span>
+			</div>
+		</form>
+	</div> 
+
+	<div class="container">
+		<h2>controlando tamaños lg</h2>
+		
+		<form action="formulario2_submit" method="get" accept-charset="utf-8">
+			<div class="form-group has-succes">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-lg" id="nombre">
+				<!-- span.help-block  (texto de ayuda)-->
+				<span class="help-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, vitae.</span>
+			</div>	
+			<div class="form-group has-warning">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-lg" id="nombre">
+			</div>	
+			<div class="form-group has-error">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-lg" id="nombre">
+			</div>	
+		</form>
+
+		<hr>
+		<h2>controlando tamaños defaut</h2>
+		<form action="formulario2_submit" method="get" accept-charset="utf-8">
+			<div class="form-group has-succes">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre" >
+			</div>	
+			<div class="form-group has-warning">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre">
+			</div>	
+			<div class="form-group has-error">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control" id="nombre">
+			</div>	
+		</form>
+		<hr>
+		<h2>controlando tamaños small</h2>
+		<form action="formulario2_submit" method="get" accept-charset="utf-8">
+			<div class="form-group has-succes">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-sm" id="nombre" >
+			</div>	
+			<div class="form-group has-warning">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-sm" id="nombre">
+			</div>	
+			<div class="form-group has-error">
+				<label for="nombre" class="control-label">Nombre</label>
+				<input type="text" class="form-control input-sm" id="nombre">
+			</div>	
+		</form>
+
+
+
+		<!-- jQuery --> 
+		<script src="js/jquey-1.11.2.min.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
+
